@@ -14,6 +14,19 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap"
     />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WBRQKZDS6L"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-WBRQKZDS6L');
+    </script>
   </head>
   <body>
     <div class="webpage">
@@ -97,13 +110,13 @@
           window.location.href = "https://mailchi.mp/0a45112ee2c5/early-access";
         });
       }
-      
+
       var buttonContainer = document.getElementById("buttonContainer");
       if (buttonContainer) {
         buttonContainer.addEventListener("click", function () {
           window.open("https://mailchi.mp/0a45112ee2c5/early-access");
         });
       }
-      </script>
+    </script>
   </body>
 </html>
