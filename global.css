@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --lightning-ai-opensource-1440x8107636108398438-default-inter-semi-bold-16: Inter;
+  --font-sf-pro-display: "SF Pro Display";
+
+  /* font sizes */
+  --lightning-ai-opensource-1440x8107636108398438-default-inter-semi-bold-16-size: 16px;
+  --lightning-ai-opensource-1440x8107636108398438-default-inter-semi-bold-14-size: 14px;
+
+  /* Colors */
+  --lightning-ai-opensource-1440x8107636108398438-default-nero: #fff;
+  --lightning-ai-opensource-1440x8107636108398438-default-purple-heart: #6019c8;
+
+  /* Paddings */
+  --padding-5xl: 24px;
+  --padding-base: 16px;
+  --padding-xs: 12px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+}
