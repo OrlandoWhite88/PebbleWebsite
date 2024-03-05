@@ -1,0 +1,159 @@
+.logoDarkIcon {
+  width: 21.7px;
+  position: relative;
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.pebble {
+  flex: 1;
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.heading,
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.logo {
+  border-radius: var(--br-9xs);
+  height: 32px;
+  gap: 0 3.99px;
+  min-width: 50px;
+  max-width: 150px;
+  z-index: 0;
+}
+.heading {
+  align-self: stretch;
+}
+.traningIcon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.training {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 117.02999877929688px;
+}
+.menuItem {
+  border-radius: var(--br-5xs);
+  background-color: var(--dark);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs) var(--padding-13xl) var(--padding-3xs)
+    var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  min-width: var(--number-2);
+  color: var(--primary);
+}
+.gpuCloudSection,
+.menuItem,
+.menuItem1,
+.menuItemParent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.menuItem1 {
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: var(--padding-3xs) var(--padding-13xl) var(--padding-3xs)
+    var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  min-width: 37px;
+}
+.gpuCloudSection,
+.menuItemParent {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.menuItemParent {
+  color: var(--text-color);
+}
+.gpuCloudSection {
+  gap: 4px 0;
+  z-index: 1;
+}
+.studio {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.studioSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px 0;
+  z-index: 2;
+}
+.icon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+}
+.settingsSection,
+.usage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.settingsSection {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px 0;
+  z-index: 3;
+}
+.iconchevronsLeftWrapper {
+  margin: 0 !important;
+  position: absolute;
+  top: 48px;
+  right: -16px;
+  border-radius: var(--br-21xl);
+  background-color: var(--dark);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  z-index: 4;
+}
+.menuBar {
+  width: 212px;
+  background-color: var(
+    --lightning-ai-opensource-1440x8107636108398438-default-nero
+  );
+  border-right: 0.9px solid var(--text-color);
+  box-sizing: border-box;
+  height: 1024px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-base);
+  position: relative;
+  gap: 24px 0;
+  min-width: var(--number);
+  text-align: left;
+  font-size: var(
+    --lightning-ai-opensource-1440x8107636108398438-default-inter-semi-bold-14-size
+  );
+  color: var(--dark);
+  font-family: var(--font-sf-pro-display);
+}
